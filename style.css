@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: #f8f8f8;
+    height: 100%;
+}
+
+.Container {
+    width: 100%;
+    margin: 0 auto;
+    min-height: calc(100vh - 100px);
+}
+
+.Header {
+    width: 100%;
+    background-image: url(img/sky-header.jpg);
+    background-color: #a88888;
+    clear: both;
+    float: left;
+}
+
+.Logo {
+    margin-top: 35px;
+    margin-left: 20px;
+    float: left;
+
+}
+
+.hello {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    color: yellow;
+
+}
+
+
+}
+
+.Net {
+    border: 1px solid #000;
+    width: 400px;
+    height: 200px;
+    border-spacing: 10px;
+}
+
+
+.Net {
+    border: 2px solid #000;
+}
+
+.LeftMenu {
+    float: left;
+    width: 13%;
+    display: inline-block;
+    /*background-color: darkgray; */
+}
+
+.menu li {
+    list-style-type: none;
+
+}
+
+.menu li a {
+    display: inline-block;
+    background: #ffffff;
+    width: 150px;
+    height: 45px;
+    text-decoration: none;
+    border-radius: 22px;
+    text-align: center;
+    line-height: 45px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.menu li a:hover {
+    background: #ffffe1;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+}
+
+.MainFrame {
+    width: 80%;
+    float: right;
+
+}
+
+
+
+.Buy a {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: skyblue;
+    width: 100px;
+    height: 30px;
+    list-style-type: none;
+    border: 1px solid #000;
+    text-align: center;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 180px;
+}
+
+.Buy a:hover {
+    background-color: azure;
+    color: red;
+
+}
+
+.Buy a:active {
+    background-color: cornflowerblue;
+    color: chartreuse;
+}
+
+.Hi {
+    text-align: center;
+
+}
+
+.contacts Email:first-letter {
+    color: red;
+}
+
+.ship_name {
+    color: crimson;
+    text-align: center;
+}
+
+.ship_view {
+    outline: none;
+    float: left;
+    display: inline-block;
+    clear: both; 
+}
+
+.ship_view:hover {
+    outline: 2px solid #000;
+    float: left;
+    display: inline-block;
+    clear: both;
+
+}
+
+
+
+h3 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.short_description:first-letter {
+    font-size: 25px;
+}
+
+.short_description {
+    display: inline-block;
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    margin-left: 50px;
+
+}
+
+.Full {
+    clear: both;
+    margin-top: 50px;
+}
+
+.full_description:first-letter {
+    font-size: 25px;
+}
+
+.full_description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.dop_info:first-letter {
+    font-size: 25px;
+}
+
+.Item {
+    color: brown;
+    font-size: 12px;
+    text-align: left;
+    list-style-type: none;
+}
+
+.contacts {
+    color: darkslategrey;
+}
+
+
+
+input {
+    text-transform: capitalize;
+}
+
+textarea {
+    text-transform: capitalize;
+}
+
+
+.email:focus {
+    color: darkred;
+    background-color: aquamarine;
+}
+
+.SmallShips li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 15px 15px;
+
+
+}
+
+.Catalog {
+    text-align: center;
+}
+
+
+.footer {
+    clear: both;
+    height: 100px;
+
+}
+
+.Number1 {
+    position: relative;
+    top: 0;
+}
+
+.Number2 {
+    position: relative;
+    top: 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 306px;
+    height: 172px;
+    opacity: 0;
+    background: rgba(255, 0, 0, 0.8);
+    /* padding: 30% 10px 30%;*/
+    display: grid;
+    grid-template-rows: 55px 1fr 1fr;
+    outline: 1px solid #333;
+}
+
+.overlay_true {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 306px;
+    height: 172px;
+    opacity: 0;
+    background: rgba(0, 255, 0, 0.8);
+    /* padding: 30% 10px 30%;*/
+    display: grid;
+    grid-template-rows: 55px 1fr 1fr;
+    outline: 1px solid #333;
+}
+
+.p-1 {
+    color: #212121;
+    font-size: 21.91px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    transform: scaleX(1.0041);
+
+}
+
+.p-2 {
+    color: #000000;
+    font-size: 13.94px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: center;
+    transform: scaleX(1.0041);
+
+}
+
+.Number1:hover .overlay {
+    opacity: 1;
+}
+
+.Number2:hover .overlay_true {
+    opacity: 1;
+}
